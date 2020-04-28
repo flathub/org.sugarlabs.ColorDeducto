@@ -26,7 +26,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/sugarlabs/colordeducto",
-                    "commit": "3d698d965d1ffbc02b03e0866f06b360a4718e6f"
+                    "commit": "008ec27c5e2a3dce967347571ca3bb022cd97af7"
                 },
                 {
                     "type": "patch",
