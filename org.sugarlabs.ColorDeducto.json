@@ -18,11 +18,11 @@
     "modules": [
         {
             "name": "colordeducto",
-            "buildsystem" : "simple",
+            "buildsystem": "simple",
             "build-commands": [
                 "python3 setup.py install --prefix=${FLATPAK_DEST} --skip-install-desktop-file --skip-install-mime"
             ],
-            "sources" : [
+            "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/sugarlabs/colordeducto",
@@ -30,7 +30,8 @@
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
-                    }
+                    },
+                    "tag": "v8"
                 },
                 {
                     "type": "patch",
@@ -57,5 +58,5 @@
                 "install -D activity/activity-color-deducto.svg /app/share/icons/hicolor/scalable/apps/org.sugarlabs.ColorDeducto.svg"
             ]
         }
-   ]
+    ]
 }
